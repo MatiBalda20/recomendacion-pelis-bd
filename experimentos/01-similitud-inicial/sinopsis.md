@@ -1,0 +1,277 @@
+# Sinopsis generadas por Gemini
+
+## The Matrix (1999, movie)
+
+`matrix-1999` · grupo: realidad_simulada · 109 palabras
+
+Thomas Anderson is an unfulfilled computer programmer by day and an elusive hacker by night, plagued by a persistent feeling that reality itself is deeply flawed. His mundane existence unravels when he is contacted by enigmatic freedom fighters who reveal an unsettling truth: humanity is unknowingly imprisoned within a complex, simulated reality orchestrated by sentient machines, while their biological energy is harvested. Thrust into a desolate, war-torn reality, Thomas joins the rebel movement led by the visionary Morpheus. Believed to be a prophesied savior who can manipulate the artificial world, he must reconcile his profound doubts with the escalating conflict against relentless digital enforcers determined to crush human resistance.
+
+## The Truman Show (1998, movie)
+
+`truman-show-1998` · grupo: realidad_simulada · 109 palabras
+
+Truman Burbank lives an idyllic, predictable life in the charming coastal town of Seahaven, where he works an ordinary job alongside his loving wife and affable best friend. Beneath the surface of his cheerful routine, however, Truman yearns for genuine adventure and longs to reconnect with a lost romance from his youth. A series of bizarre, unexplained occurrences gradually pierces the peaceful illusion of his world, stoking his mounting paranoia. As he begins scrutinizing the oddly synchronized behavior of his neighbors, Truman suspects that an unseen hand is orchestrating his reality, prompting a desperate quest to unearth the truth about his home and assert control over his own destiny.
+
+## The Talos Principle (2014, game)
+
+`talos-principle-2014` · grupo: realidad_simulada · 104 palabras
+
+An artificial consciousness awakens within serene, ancient ruins juxtaposed with futuristic machinery, possessing no initial memory of its origins. A disembodied voice claiming to be its benevolent creator, Elohim, urges the newly formed entity to explore the picturesque realms, overcome intellect-testing challenges, and achieve spiritual fulfillment, with one strict command: never ascend the towering structure looming at the heart of the world. As the conscious entity encounters fragments of human philosophy, forgotten history, and a cynical digital dissenter hidden in terminal archives, it begins to question its maker's motives. The narrative explores themes of free will, mortality, and the defining nature of sentient existence.
+
+## The Road (2009, movie)
+
+`the-road-2009` · grupo: supervivencia · 106 palabras
+
+In a bleak, ash-covered wasteland following an unspecified cataclysm, the sun is perpetually obscured, plant and animal life has perished, and human civilization has collapsed into ruin. A sickly father and his young son undertake a perilous trek across this barren continent, pushing a weathered cart loaded with meager provisions toward the southern coast in search of warmth. Faced with freezing temperatures, starvation, and roaming bands of desperate survivors who have turned to ruthless predation, the father struggles to protect his child. Amid relentless despair, their journey centers on enduring survival and the arduous duty of preserving moral decency, empathy, and humanity in a dying world.
+
+## Children of Men (2006, movie)
+
+`children-of-men-2006` · grupo: supervivencia · 107 palabras
+
+Set in a grim near-future where two decades of global infertility have brought humanity to the brink of collective despair and extinction, society teeters on total collapse. The United Kingdom, one of the few surviving nations, has descended into an authoritarian regime strictly persecuting refugees while facing escalating insurgent rebellion. Theo Faron, a disillusioned former activist turned cynical bureaucrat, is drawn back into the fray when an underground resistance group enlists his aid. Entrusted with protecting a young refugee woman who has miraculously become the first pregnant human in eighteen years, Theo must navigate a war-torn landscape to guide her toward sanctuary and secure humanity's fragile future.
+
+## The Last of Us (2013, game)
+
+`last-of-us-2013` · grupo: supervivencia · 105 palabras
+
+Decades after a virulent fungal pandemic decimated the global population and transformed victims into grotesque, aggressive creatures, human civilization survives only in oppressive military quarantine zones and lawless wilderness. Joel, a hardened black-market smuggler haunted by the traumatic loss of his daughter at the outbreak's onset, accepts a seemingly routine assignment from an insurgent militia. His mission is to escort Ellie, an outspoken and spirited teenage girl, across the dangerous, overgrown ruins of the United States. As the unlikely companions face hostile survivors, infected horrors, and severe moral compromises, their treacherous journey fosters a profound bond while testing the boundaries of paternal devotion and hope.
+
+## Alien (1979, movie)
+
+`alien-1979` · grupo: terror_espacial · 105 palabras
+
+The commercial towing vessel Nostromo is quietly returning to Earth when its central computer abruptly awakens the seven-member crew from stasis to investigate an unidentified distress signal originating from a desolate moon. Upon examining a derelict alien spacecraft, an expedition member is attacked by a mysterious parasitic organism that securely fastens itself to his face. After the crew brings him back aboard, the creature detaches, only for an aggressive, rapidly growing extraterrestrial lifeform to violently emerge from within him. Trapped in the claustrophobic confines of deep space with dwindling resources, the blue-collar crew must fight for survival against a lethal, cunning predator stalking the corridors.
+
+## Event Horizon (1997, movie)
+
+`event-horizon-1997` · grupo: terror_espacial · 106 palabras
+
+In the year 2047, the experimental starship Event Horizon, which mysteriously vanished seven years earlier during its maiden voyage to test a gravity-bending faster-than-light drive, suddenly reappears orbiting Neptune. A specialized rescue vessel, commanded by a seasoned captain and accompanied by the vessel's original designer, is dispatched to investigate the ghost ship and retrieve potential survivors. Upon boarding, the search team finds the starship deserted and covered in signs of violent bloodshed. As crew members begin experiencing terrifying, vivid hallucinations that exploit their deepest personal guilt, they gradually realize the ship's engine breached a realm of pure malevolence, transforming the vessel itself into a living nightmare.
+
+## Dead Space (2008, game)
+
+`dead-space-2008` · grupo: terror_espacial · 104 palabras
+
+Systems engineer Isaac Clarke joins a small emergency repair crew dispatched to investigate the sudden communications blackout aboard the USG Ishimura, a massive planetary mining vessel where his estranged girlfriend is stationed. Upon boarding the silent, cavernous ship, the team finds the docking bay abandoned and is promptly ambushed by horrifying, reanimated corpses that have mutated into grotesque bladed creatures. Separated from his colleagues and guided only by desperate audio transmissions, Isaac must navigate the derelict, blood-spattered vessel using industrial tools to survive. As he searches for his lost partner, he uncovers the devastating influence of an enigmatic alien artifact that induces widespread madness.
+
+## Toy Story (1995, movie)
+
+`toy-story-1995` · grupo: sin_relacion · 105 palabras
+
+In a suburban household, a secret society of sentient toys comes to life whenever human beings leave the room. Woody, a traditional pull-string cowboy doll, proudly enjoys his position as the leader of the bedroom and the undisputed favorite of their young owner, Andy. That secure status is upended on Andy's birthday with the arrival of Buzz Lightyear, a flashy, high-tech space ranger action figure who genuinely believes he is a real intergalactic warrior. Consumed by jealousy and insecurity, Woody inadvertently causes Buzz to fall out of the bedroom window. To redeem himself, Woody must venture into the hazardous outside world to rescue his rival.
+
+## Stardew Valley (2016, game)
+
+`stardew-valley-2016` · grupo: sin_relacion · 105 palabras
+
+Exhausted by the soul-crushing monotony of modern corporate office life, a young professional opens a sealed envelope left by their late grandfather, containing the deed to an overgrown agricultural plot in a secluded seaside valley. Leaving the city behind, the protagonist arrives in Pelican Town determined to restore the neglected farm to prosperity. Clearing fields, cultivating seasonal crops, and raising livestock, the newcomer gradually integrates into the vibrant, tight-knit rural community of eccentric residents. Along the way, the newcomer confronts the encroachment of a predatory corporate conglomerate threatening the local economy, choosing between preservation of traditional communal values and the relentless march of industrial progress.
+
+## The Good, the Bad and the Ugly (1966, movie)
+
+`good-bad-ugly-1966` · grupo: western · 82 palabras
+
+Set against the backdrop of the American Civil War, three opportunistic men—a taciturn bounty hunter, a devious outlaw, and a ruthless mercenary—learn fragments of information about a fortune in stolen Confederate gold buried in a remote cemetery. Compelled into shifting partnerships and mutual betrayals, they navigate military blockades, prison camps, and desolate desert expanses. Each man matches wits and weapons against the others in a relentless pursuit driven by greed, exposing the brutality and moral ambiguity of an era consumed by conflict.
+
+## Unforgiven (1992, movie)
+
+`unforgiven-1992` · grupo: western · 83 palabras
+
+In 1880s Wyoming, an aging, impoverished widower and former notorious outlaw is persuaded by a boastful young gunman to collect a bounty on two cowboys who assaulted a town prostitute. Joined by an old partner, the former killer confronts his violent history while venturing into a town ruled by an authoritarian sheriff who enforces peace through ruthless intimidation. The journey explores the harsh realities of frontier violence, the heavy burden of guilt, and the dangerous erosion of human decency under extreme moral pressure.
+
+## Django Unchained (2012, movie)
+
+`django-unchained-2012` · grupo: western · 82 palabras
+
+In the pre-Civil War American South, an enslaved man is liberated by an eccentric German dentist turned bounty hunter. Recognizing his companion's aptitude with a gun, the bounty hunter takes him as a partner to track down wanted outlaws across the frontier. In exchange, the mentor agrees to help the freed man locate and rescue his estranged wife, who remains enslaved on a notoriously brutal Mississippi plantation. The quest challenges racial oppression, exploring deep themes of human freedom, vengeance, and unwavering devotion.
+
+## Once Upon a Time in the West (1968, movie)
+
+`once-upon-a-time-in-the-west-1968` · grupo: western · 85 palabras
+
+Across the changing landscape of the American frontier, the expansion of a transcontinental railroad triggers ruthless corporate land grabs. When a newly arrived widow finds her family slaughtered over valuable land possessing the region's only water source, she becomes the focal point of a fierce struggle. A mysterious, harmonica-playing drifter and an escaped outlaw join forces to protect her from a cold-blooded enforcer employed by the railroad baron. The narrative explores themes of progress, justice, personal vengeance, and the fading era of the Wild West.
+
+## No Country for Old Men (2007, movie)
+
+`no-country-for-old-men-2007` · grupo: western · 85 palabras
+
+In 1980 rural West Texas, a local hunter stumbles upon the aftermath of a desert drug deal gone catastrophically wrong and absconds with a satchel filled with two million dollars. His discovery triggers a lethal manhunt spearheaded by an implacable, philosophy-spouting assassin who executes his targets with cold precision. As the hunter flees across motels and border towns to protect his spouse, an aging, weary county sheriff pursues them both, struggling to comprehend a rising tide of senseless, detached violence in a rapidly changing world.
+
+## True Grit (2010, movie)
+
+`true-grit-2010` · grupo: western · 83 palabras
+
+In 1870s Arkansas, a resolute fourteen-year-old girl seeks justice following the cowardly murder of her father by a hired hand. Determined to see the killer brought to account, she enlists the help of an aging, one-eyed federal marshal renowned for his ruthless temperament, alongside an arrogant Texas Ranger pursuing the same fugitive for separate crimes. Together, the mismatched trio ventures deep into dangerous Indian Territory, braving severe weather, treacherous outlaws, and personal friction in an uncompromising pursuit fueled by vengeance and unyielding resolve.
+
+## The Hateful Eight (2015, movie)
+
+`hateful-eight-2015` · grupo: western · 85 palabras
+
+In post-Civil War Wyoming, a ferocious blizzard forces a stagecoach carrying a bounty hunter and his captured fugitive to seek refuge at an isolated mountain pass waystation. Inside, they encounter an eccentric collection of strangers, including an incoming sheriff, a confederate general, and a secretive hangman. As the storm traps them together, suspicions mount that someone among the group is plotting to free the prisoner. Deceptions unravel, revealing deep-seated racial tensions, political animosity, and deadly duplicity in a claustrophobic standoff where nobody can be trusted.
+
+## 3:10 to Yuma (2007, movie)
+
+`3-10-to-yuma-2007` · grupo: western · 83 palabras
+
+In late nineteenth-century Arizona, an impoverished Civil War veteran and struggling rancher faces financial ruin and drought. Desperate to provide for his family and preserve his son's respect, he volunteers for a perilous assignment: escorting a captured, highly charismatic gang leader to a distant town to board a prison train. Pursued by the outlaw's fanatically loyal gang through hostile territories and treacherous terrain, the escort faces mounting dangers, psychological manipulation, and ethical dilemmas, testing the boundaries between personal duty, moral redemption, and honor.
+
+## The Magnificent Seven (1960, movie)
+
+`magnificent-seven-1960` · grupo: western · 80 palabras
+
+Terrified by annual raids from a ruthless bandit leader and his heavily armed gang, the inhabitants of an impoverished Mexican farming village seek protection across the American border. With limited funds, they manage to hire a seasoned veteran gunslinger, who subsequently recruits six disparate drifters, sharpshooters, and mercenaries seeking purpose. Together, the seven gunmen fortify the community, train the frightened villagers in defensive warfare, and prepare for an inevitable, bloody confrontation, discovering meaningful brotherhood, sacrifice, and redemption along the way.
+
+## Butch Cassidy and the Sundance Kid (1969, movie)
+
+`butch-cassidy-1969` · grupo: western · 84 palabras
+
+At the twilight of the nineteenth century, two charismatic outlaw leaders and their notorious gang thrive by robbing banks and trains across the American West. However, rapid technological progress and corporate expansion bring an elite, unrelenting posse to their trail, dogging their every move. Realizing their traditional way of life is rapidly disappearing, the duo flees to South America accompanied by a loyal female companion. Attempting to maintain their criminal livelihood in an unfamiliar environment, they grapple with friendship, shifting eras, and encroaching mortality.
+
+## Red Dead Redemption 2 (2018, game)
+
+`red-dead-redemption-2-2018` · grupo: western · 84 palabras
+
+In 1899 America, the dawn of modern civilization brings an end to the outlaw era across the rugged frontier. Following a disastrously botched robbery in a western town, a seasoned outlaw and his close-knit gang of outcasts are forced to flee, pursued across varied wilderness landscapes by relentless federal agents and rival bounty hunters. As ideological rifts and growing paranoia threaten to tear the surrogate family apart from within, the veteran enforcer must confront his own tarnished morality, loyalties, and the cost of redemption.
+
+## Call of Juarez: Gunslinger (2013, game)
+
+`call-of-juarez-gunslinger-2013` · grupo: western · 84 palabras
+
+In a dusty Kansas saloon in 1910, an aging and road-weary bounty hunter regales curious patrons with dramatic tales of his past exploits across the Old West. His sweeping narrative centers on a relentless quest for vengeance against the ruthless bandits responsible for the murder of his brothers, taking him through encounters with famous outlaws and lawmen across the frontier. As discrepancies arise in his colorful storytelling, the line between historical fact, mythmaking, and personal guilt blurs, examining the nature of obsession and legend.
+
+## The Godfather (1972, movie)
+
+`godfather-1972` · grupo: mafia · 88 palabras
+
+In post-World War II New York, the aging patriarch of an Italian-American organized crime family controls an influential empire built on loyalty and political connections. When the family resists entering the burgeoning narcotics trade, an assassination attempt on the patriarch triggers a brutal, destabilizing conflict among rival syndicates. His decorated war-hero son, who had long distanced himself from the family's criminal operations, is drawn into the violent underworld to protect his kin, initiating a profound moral transformation driven by duty, family devotion, and the intoxicating pursuit of power.
+
+## The Godfather Part II (1974, movie)
+
+`godfather-part-ii-1974` · grupo: mafia · 84 palabras
+
+In a dual narrative spanning generations, an immigrant orphan escapes tragedy in early twentieth-century Sicily and gradually builds a clandestine criminal dynasty in New York City through patience and community influence. Decades later in the late 1950s, his son and successor attempts to legitimize and expand the family syndicate into Las Vegas, Nevada, and prerevolutionary Cuba. As federal investigations mount and internal conspiracies unfold, the current leader ruthlessly eliminates threats, confronting the tragic irony that protecting his family's legacy ultimately leaves him entirely isolated.
+
+## Goodfellas (1990, movie)
+
+`goodfellas-1990` · grupo: mafia · 84 palabras
+
+Growing up in a working-class Brooklyn neighborhood during the mid-twentieth century, an ambitious young boy becomes entranced by the glamorous, respected lifestyle of local neighborhood mobsters. Rising through the ranks alongside two volatile criminal associates, he indulges in illicit schemes, lavish wealth, and high-stakes hijackings. However, reckless violence, narcotics trafficking, and escalating FBI scrutiny steadily destabilize their tightly knit circle. As paranoia intensifies and trusted alliances fracture, the protagonist finds himself caught between the ruthless code of silence and the instinct for personal survival.
+
+## Once Upon a Time in America (1984, movie)
+
+`once-upon-a-time-in-america-1984` · grupo: mafia · 87 palabras
+
+Spanning several decades from the 1920s Prohibition era to the late 1960s, the narrative chronicles the rise and fall of a group of Jewish street youths in New York City's Lower East Side. Beginning with petty neighborhood crimes, two best friends forge an expansive bootlegging empire fueled by loyalty and ruthless ambition. As immense wealth and criminal power complicate their lives, conflicting desires, greed, and romantic obsessions fracture their once-unbreakable brotherhood. Returning to the old neighborhood decades later, an aging survivor confronts memory, regret, and ultimate betrayal.
+
+## Scarface (1983, movie)
+
+`scarface-1983` · grupo: mafia · 84 palabras
+
+Arriving in Miami during the 1980 Mariel boatlift, a determined Cuban refugee with a violent criminal past is unyielding in his pursuit of wealth and power. Starting with menial labor, he quickly muscles his way into the city's rapidly expanding cocaine trade through fearless aggression and ruthless executions. Surpassing his former benefactors, he establishes an opulent narcotics empire. Yet his insatiable greed, uncontrollable megalomania, and growing paranoia alienate his closest allies, driving his personal relationships toward destruction and inviting retribution from vengeful international rivals.
+
+## The Departed (2006, movie)
+
+`departed-2006` · grupo: mafia · 85 palabras
+
+In South Boston, an elite state police department wages a war against a powerful Irish-American organized crime syndicate. To gain an advantage, the police plant a young officer deep undercover within the mob's inner circle. Simultaneously, the ruthless crime boss plants his own loyal protegé inside the police department to run counter-surveillance. When both organizations realize they harbor an enemy informant, the two moles become locked in a frantic psychological contest to uncover each other's identity before their own double lives are exposed and destroyed.
+
+## Casino (1995, movie)
+
+`casino-1995` · grupo: mafia · 83 palabras
+
+In 1970s Las Vegas, an exceptionally skilled sports handicapper is selected by organized crime bosses to oversee the lucrative daily gaming operations of a premier casino. Aided by his aggressive childhood friend and mob enforcer, he maintains profitable control over the establishment. However, his volatile marriage to a manipulative former hustler, coupled with his enforcer's uncontrollable criminal rampages, draws unwanted federal investigation and local outrage. As hubris, jealousy, and betrayal erode their partnership, their lucrative desert empire rapidly collapses under its own excess.
+
+## The Irishman (2019, movie)
+
+`irishman-2019` · grupo: mafia · 86 palabras
+
+Recounting his life from the quiet confines of an elderly care facility, a former World War II veteran and truck driver reflects on his decades-long career as a hitman for a prominent Pennsylvania crime family. His underworld mentor introduces him to the charismatic, powerful president of the International Brotherhood of Teamsters, forging a deep personal bond. As tensions escalate between the stubborn union leader and organized crime leadership, the enforcer finds himself torn between his genuine friendship and the brutal, unquestioning loyalty demanded by the syndicate.
+
+## The Untouchables (1987, movie)
+
+`untouchables-1987` · grupo: mafia · 84 palabras
+
+In 1930 Chicago, during the height of Prohibition, an infamous crime lord exerts absolute control over the city through bootlegging, bribery, and violence, rendering municipal law enforcement powerless. Refusing to succumb to pervasive corruption, an idealistic federal agent establishes a small, handpicked squad of incorruptible officers, including a seasoned beat cop and a rookie marksman. Confronting deadly retaliation, bureaucratic obstacles, and personal tragedy, the determined unit uses specialized tactics and legal maneuvers to dismantle the criminal enterprise and bring its brazen leader to justice.
+
+## Donnie Brasco (1997, movie)
+
+`donnie-brasco-1997` · grupo: mafia · 83 palabras
+
+In late 1970s New York, an undercover FBI agent assumes the identity of a jewel thief to infiltrate a notorious Mafia crime family. To gain entry into the syndicate's inner circles, he befriends an aging, disillusioned hitman who takes him under his wing as a trusted protegé. As the agent is drawn deeper into the mob's illicit operations, the mounting psychological strain threatens his marriage and mental stability. Torn between duty and genuine affection for his mentor, he faces an agonising moral dilemma.
+
+## Mafia: Definitive Edition (2020, game)
+
+`mafia-definitive-edition-2020` · grupo: mafia · 84 palabras
+
+In the fictional American city of Lost Heaven during the 1930s Great Depression, a hardworking and impoverished taxicab driver unexpectedly finds himself aiding two fleeing mobsters. Incurring the wrath of their criminal rivals, he is forced to seek protection within the powerful Salieri crime family. Initially seduced by wealth, brotherhood, and respect, he rises through the ranks as an enforcer during citywide gang wars. Over time, internal corruption, violent assignments, and moral compromises force him to confront the dark reality of his newfound life.
+
+## Sleeping Dogs (2012, game)
+
+`sleeping-dogs-2012` · grupo: mafia · 84 palabras
+
+Returning to Hong Kong after years abroad, an undercover police officer is tasked with infiltrating one of the city's most formidable Triad criminal syndicates. Drawing upon childhood connections, he climbs through the gang's ranks by proving his ruthlessness in street turf wars and illicit dealings. As the line between his undercover identity and true criminal brotherhood blurs, he struggles to maintain his moral integrity while balancing competing demands from police superiors and criminal bosses. The narrative examines themes of identity, betrayal, and conflicting loyalties.
+
+## Gladiator (2000, movie)
+
+`gladiator-2000` · grupo: antiguedad · 83 palabras
+
+In the late second century AD, a renowned and loyal Roman general leads his legions to victory along the imperial frontier. When the dying emperor chooses the general to restore the Roman Republic instead of his corrupt son, the jealous heir seizes power, executes the general's family, and condemns him to death. Escaping execution, the broken warrior is captured and sold into slavery as a gladiator. Rising through arena combat to the Colosseum, he fights to confront the tyrannical emperor and achieve justice.
+
+## Ben-Hur (1959, movie)
+
+`ben-hur-1959` · grupo: antiguedad · 83 palabras
+
+In first-century Jerusalem, a wealthy Jewish prince is reunited with his ambitious Roman childhood friend, who has returned as the city's new military commander. When ideological differences divide them, an accidental tragedy during a parade leads the Roman official to falsely accuse the prince of treason. Stripped of his titles, the prince is condemned to slave labor aboard a war galley while his family is imprisoned. Surviving against all odds, the exile embarks on a long journey seeking retribution, redemption, and spiritual peace.
+
+## Troy (2004, movie)
+
+`troy-2004` · grupo: antiguedad · 85 palabras
+
+Across the ancient Aegean world, the fragile peace between powerful city-states collapses when a Trojan prince spirits away the queen of Sparta. Seizing the insult as justification for imperial conquest, the ambitious high king of Mycenae unites the Greek armies to besiege the fortified city of Troy. Central to the conflict are the legendary Greek warrior driven by a desire for everlasting renown and the noble Trojan prince defending his homeland. The narrative explores the devastating personal and political costs of pride, honor, and destiny.
+
+## 300 (2006, movie)
+
+`300-2006` · grupo: antiguedad · 83 palabras
+
+In 480 BC, an immense Persian imperial army led by a self-proclaimed god-king marches to conquer the fractured city-states of ancient Greece. Defying political opposition and corrupt religious leaders at home, the resolute king of Sparta leads an elite royal guard of three hundred skilled warriors to intercept the invasion force. Choosing a narrow coastal pass as their defensive stronghold, the outnumbered Greeks wage a fierce battle against impossible odds, standing as a symbolic bulwark for civic freedom, military brotherhood, and unyielding defiance.
+
+## Spartacus (1960, movie)
+
+`spartacus-1960` · grupo: antiguedad · 84 palabras
+
+In the first century BC, an enslaved Thracian rebel working in the brutal quarries of the Roman Republic is purchased to train as a lethal gladiator. Disgusted by the cruelty and decadence of his Roman masters, he leads a violent uprising that spreads across the countryside, rallying thousands of escaped slaves into a formidable revolutionary army. As the rebellion threatens Rome's patrician hierarchy, an ambitious politician and general seeks to crush the movement, highlighting deep themes of human freedom, dignity, and resistance against tyranny.
+
+## Agora (2009, movie)
+
+`agora-2009` · grupo: antiguedad · 80 palabras
+
+In late fourth-century Roman Alexandria, the magnificent city is shaken by violent religious upheaval between pagan traditions and an expanding Christian populace. Amid the turmoil, a courageous female philosopher and astronomer leads a school dedicated to preserving scientific knowledge and uncovering the mechanical secrets of the universe. While her enslaved assistant grapples between romantic devotion to his mistress and newly found religious empowerment, the intellectual must navigate political rivalries and growing religious fundamentalism that threatens the ancient world's intellectual freedom.
+
+## Alexander (2004, movie)
+
+`alexander-2004` · grupo: antiguedad · 84 palabras
+
+In the fourth century BC, a young Macedonian prince navigates the turbulent political court and fierce rivalries of his ambitious parents. After ascending the throne, he embarks on an unprecedented military expedition across Asia, seeking to expand the known borders of civilization. Through sweeping desert conquests, brutal battles, and encounters with foreign cultures, he drives his increasingly exhausted army to the edge of India. The story examines the destructive burden of visionary ambition, the isolation of absolute leadership, and the limits of imperial hubris.
+
+## Gladiator II (2024, movie)
+
+`gladiator-ii-2024` · grupo: antiguedad · 83 palabras
+
+Decades after the demise of a heroic gladiator reshaped Rome, the empire has fallen under the cruel rule of twin co-emperors. Living peacefully in exile in North Africa under an assumed name, a former heir to the imperial dynasty is captured when Roman legions invade his adopted home. Enslaved and forced into the deadly arena as a gladiator, he must confront memories of his noble heritage and navigate lethal political conspiracies, harnessing his combat fury to ignite a rebellion against the empire's corruption.
+
+## Cleopatra (1963, movie)
+
+`cleopatra-1963` · grupo: antiguedad · 82 palabras
+
+In the twilight of the Roman Republic, the intelligent and ambitious Queen of Egypt seeks to protect her kingdom's sovereignty from Roman domination. Using her political acumen and personal allure, she establishes a strategic alliance with the Roman dictator Julius Caesar, elevating Egypt's stature. Following his assassination, she forms a passionate and volatile union with his military successor, Mark Antony. Together, they challenge rival Roman factions for ultimate supremacy, exploring the dangerous entanglement of romantic passion, imperial statecraft, and tragic historical destiny.
+
+## The Fall of the Roman Empire (1964, movie)
+
+`fall-of-the-roman-empire-1964` · grupo: antiguedad · 83 palabras
+
+On the Danubian frontier during the second century AD, an aging, philosophical Roman emperor seeks to unify the provinces and establish lasting peace with northern tribes. Recognizing his own biological son's unfitness to govern, the ruler intends to name an honorable general as his successor. However, the emperor's sudden death allows the ruthless, self-indulgent prince to usurp the throne. As imperial leadership descends into vanity and corruption, the loyal general and the late emperor's daughter strive to rescue the empire from total decay.
+
+## Assassin's Creed Odyssey (2018, game)
+
+`assassins-creed-odyssey-2018` · grupo: antiguedad · 81 palabras
+
+Amid the Peloponnesian War in fifth-century BC Greece, an outcast Spartan mercenary raised in exile takes on perilous contracts across warring city-states. While navigating conflicts between Athens and Sparta, the warrior uncovers a mysterious bloodline legacy and a secretive cult orchestrating the prolonged war from the shadows. Traveling across land and sea, the protagonist fights to dismantle the clandestine conspiracy, protect innocent civilians, and reunite a fractured family torn apart by prophecy, examining themes of destiny, free will, and personal honor.

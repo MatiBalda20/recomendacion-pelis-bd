@@ -14,6 +14,7 @@ CARPETA = Path(__file__).parent
 ARCHIVO_TITULOS = CARPETA / "titulos.json"
 ARCHIVO_SINOPSIS = CARPETA / "sinopsis.json"
 ARCHIVO_RESULTADOS = CARPETA / "resultados.md"
+ARCHIVO_SINOPSIS_MD = CARPETA / "sinopsis.md"
 
 MODELO = "intfloat/multilingual-e5-small"
 SIN_GRUPO = "sin_relacion"
@@ -23,9 +24,12 @@ CONSULTAS = [
     "a father protects his son in a dying world",
     "crew members hunted by a creature on a spaceship",
 ]
+# C usa los prefijos de A, pero le resta a cada vector el promedio de las
+# sinopsis del catálogo (centrado) y lo vuelve a normalizar.
 VARIANTES = {
-    "A": {"pasaje": "passage: ", "consulta": "query: "},
-    "B": {"pasaje": "query: ", "consulta": "query: "},
+    "A": {"pasaje": "passage: ", "consulta": "query: ", "centrar": False},
+    "B": {"pasaje": "query: ", "consulta": "query: ", "centrar": False},
+    "C": {"pasaje": "passage: ", "consulta": "query: ", "centrar": True},
 }
 
 lineas_salida = []
@@ -73,6 +77,15 @@ ids = [t["id"] for t in items]
 grupos = [t["grupo"] for t in items]
 n = len(items)
 
+# Copia legible de lo que devolvió Gemini, para revisar las sinopsis a mano.
+lineas_sinopsis = ["# Sinopsis generadas por Gemini", ""]
+for t in titulos:
+    texto = sinopsis_por_id.get(t["id"]) or "(ausente)"
+    lineas_sinopsis += [f"## {t['titulo']} ({t['anio']}, {t['tipo']})", "",
+                        f"`{t['id']}` · grupo: {t['grupo']} · {len(texto.split())} palabras", "",
+                        texto, ""]
+ARCHIVO_SINOPSIS_MD.write_text("\n".join(lineas_sinopsis), encoding="utf-8")
+
 # --- Modelo ------------------------------------------------------------------
 
 from sentence_transformers import SentenceTransformer  # noqa: E402 (se importa acá para medir la RAM)
@@ -84,6 +97,10 @@ ram_despues_modelo = ram_mb()
 
 def vectorizar(textos):
     return modelo.encode(textos, normalize_embeddings=True, convert_to_numpy=True)
+
+
+def normalizar(vectores):
+    return vectores / np.linalg.norm(vectores, axis=-1, keepdims=True)
 
 
 # --- Análisis por variante ---------------------------------------------------
@@ -101,10 +118,16 @@ for nombre, prefijos in VARIANTES.items():
     escribir(f"## Variante {nombre}")
     escribir()
     escribir(f"Prefijo de sinopsis: `{prefijos['pasaje']}` · "
-             f"prefijo de búsquedas libres: `{prefijos['consulta']}`")
+             f"prefijo de búsquedas libres: `{prefijos['consulta']}` · "
+             f"centrado: {'sí' if prefijos['centrar'] else 'no'}")
     escribir()
 
     vectores = vectorizar([prefijos["pasaje"] + t["sinopsis"] for t in items])
+    # Centrado: el promedio del catálogo es lo que todas las sinopsis tienen en
+    # común. Restarlo deja solo lo propio de cada una. Las búsquedas libres se
+    # centran con el mismo promedio, para que queden en el mismo espacio.
+    media = vectores.mean(axis=0) if prefijos["centrar"] else 0
+    vectores = normalizar(vectores - media)
     sim = vectores @ vectores.T
     # Vecinos de cada título ordenados de mayor a menor similitud, sin él mismo.
     vecinos = [[j for j in np.argsort(-sim[i]) if j != i] for i in range(n)]
@@ -188,7 +211,8 @@ for nombre, prefijos in VARIANTES.items():
     # 7. Búsquedas libres
     escribir("### 7. Búsquedas libres (top-3)")
     escribir()
-    vectores_consultas = vectorizar([prefijos["consulta"] + c for c in CONSULTAS])
+    vectores_consultas = normalizar(
+        vectorizar([prefijos["consulta"] + c for c in CONSULTAS]) - media)
     filas = []
     for consulta, vector in zip(CONSULTAS, vectores_consultas, strict=True):
         sim_consulta = vectores @ vector

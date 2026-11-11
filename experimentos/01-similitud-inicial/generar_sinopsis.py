@@ -1,8 +1,9 @@
 """Genera las sinopsis de los títulos con Gemini y las guarda en sinopsis.json.
 
 Uso:
-    python generar_sinopsis.py            # no llama a la API si sinopsis.json ya existe
-    python generar_sinopsis.py --forzar   # vuelve a generarlas
+    python generar_sinopsis.py            # pide solo las sinopsis que faltan en sinopsis.json
+    python generar_sinopsis.py --forzar   # vuelve a generarlas todas
+    python generar_sinopsis.py --modelos  # lista los modelos disponibles para la clave
 """
 
 import json
@@ -21,21 +22,44 @@ ARCHIVO_SALIDA = CARPETA / "sinopsis.json"
 TEMPERATURA = 0.2
 
 
-def main():
-    forzar = "--forzar" in sys.argv[1:]
-    if ARCHIVO_SALIDA.exists() and not forzar:
-        print(f"{ARCHIVO_SALIDA.name} ya existe. Usá --forzar para volver a generarlo.")
-        return
+def listar_modelos(api_key):
+    """Muestra los modelos de la clave que pueden generar texto."""
+    cliente = genai.Client(api_key=api_key)
+    for modelo in cliente.models.list():
+        if "generateContent" in (modelo.supported_actions or []):
+            print(modelo.name.removeprefix("models/"))
 
+
+def main():
+    argumentos = sys.argv[1:]
     load_dotenv(CARPETA / ".env")
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
+
+    if "--modelos" in argumentos:
+        if not api_key:
+            sys.exit(f"Error: falta GEMINI_API_KEY en {CARPETA / '.env'}")
+        listar_modelos(api_key)
+        return
+
+    titulos = json.loads(ARCHIVO_TITULOS.read_text(encoding="utf-8"))
+
+    # Sin --forzar se conservan las sinopsis existentes y solo se piden las que faltan.
+    existentes = []
+    if ARCHIVO_SALIDA.exists() and "--forzar" not in argumentos:
+        existentes = json.loads(ARCHIVO_SALIDA.read_text(encoding="utf-8"))
+        ids_existentes = {s["id"] for s in existentes}
+        titulos = [t for t in titulos if t["id"] not in ids_existentes]
+        if not titulos:
+            print(f"{ARCHIVO_SALIDA.name} ya tiene todas las sinopsis. "
+                  "Usá --forzar para volver a generarlas.")
+            return
+
     modelo = os.getenv("GEMINI_MODEL", "").strip()
     faltantes = [nombre for nombre, valor in
                  [("GEMINI_API_KEY", api_key), ("GEMINI_MODEL", modelo)] if not valor]
     if faltantes:
         sys.exit(f"Error: faltan variables en {CARPETA / '.env'}: {', '.join(faltantes)}")
 
-    titulos = json.loads(ARCHIVO_TITULOS.read_text(encoding="utf-8"))
     # Al modelo solo se le mandan id, título, año y tipo. Nunca el grupo.
     lineas = [f"- id: {t['id']} | {t['titulo']} | {t['anio']} | {t['tipo']}" for t in titulos]
     prompt = ARCHIVO_PROMPT.read_text(encoding="utf-8").replace("{TITULOS}", "\n".join(lineas))
@@ -69,10 +93,11 @@ def main():
     if ids_recibidos - ids_pedidos:
         print(f"Aviso: ids inesperados: {', '.join(sorted(map(str, ids_recibidos - ids_pedidos)))}")
 
+    todas = existentes + sinopsis
     ARCHIVO_SALIDA.write_text(
-        json.dumps(sinopsis, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(todas, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"Guardadas {len(sinopsis)} sinopsis en {ARCHIVO_SALIDA.name}")
+    print(f"Agregadas {len(sinopsis)} sinopsis. Total en {ARCHIVO_SALIDA.name}: {len(todas)}")
 
 
 if __name__ == "__main__":
