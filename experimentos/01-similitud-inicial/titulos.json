@@ -1,0 +1,13 @@
+[
+  {"id": "matrix-1999", "titulo": "The Matrix", "anio": 1999, "tipo": "movie", "grupo": "realidad_simulada"},
+  {"id": "truman-show-1998", "titulo": "The Truman Show", "anio": 1998, "tipo": "movie", "grupo": "realidad_simulada"},
+  {"id": "talos-principle-2014", "titulo": "The Talos Principle", "anio": 2014, "tipo": "game", "grupo": "realidad_simulada"},
+  {"id": "the-road-2009", "titulo": "The Road", "anio": 2009, "tipo": "movie", "grupo": "supervivencia"},
+  {"id": "children-of-men-2006", "titulo": "Children of Men", "anio": 2006, "tipo": "movie", "grupo": "supervivencia"},
+  {"id": "last-of-us-2013", "titulo": "The Last of Us", "anio": 2013, "tipo": "game", "grupo": "supervivencia"},
+  {"id": "alien-1979", "titulo": "Alien", "anio": 1979, "tipo": "movie", "grupo": "terror_espacial"},
+  {"id": "event-horizon-1997", "titulo": "Event Horizon", "anio": 1997, "tipo": "movie", "grupo": "terror_espacial"},
+  {"id": "dead-space-2008", "titulo": "Dead Space", "anio": 2008, "tipo": "game", "grupo": "terror_espacial"},
+  {"id": "toy-story-1995", "titulo": "Toy Story", "anio": 1995, "tipo": "movie", "grupo": "sin_relacion"},
+  {"id": "stardew-valley-2016", "titulo": "Stardew Valley", "anio": 2016, "tipo": "game", "grupo": "sin_relacion"}
+]

@@ -1,0 +1,9 @@
+# PyTorch solo CPU: evita descargar los binarios de CUDA (varios GB).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+google-genai>=1.0
+python-dotenv>=1.0
+torch>=2.4
+sentence-transformers>=3.3
+numpy>=1.26
+psutil>=6.0
