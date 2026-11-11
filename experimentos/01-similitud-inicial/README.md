@@ -29,6 +29,16 @@ Nueve títulos en tres grupos temáticos (dos películas y un juego por grupo) y
 | toy-story-1995 | Toy Story | 1995 | movie | sin_relacion |
 | stardew-valley-2016 | Stardew Valley | 2016 | game | sin_relacion |
 
+Segunda corrida: se suman 35 títulos en tres grupos más grandes (46 en total).
+
+| grupo | películas | juegos |
+| --- | --- | --- |
+| western | The Good, the Bad and the Ugly (1966), Unforgiven (1992), Django Unchained (2012), Once Upon a Time in the West (1968), No Country for Old Men (2007), True Grit (2010), The Hateful Eight (2015), 3:10 to Yuma (2007), The Magnificent Seven (1960), Butch Cassidy and the Sundance Kid (1969) | Red Dead Redemption 2 (2018), Call of Juarez: Gunslinger (2013) |
+| mafia | The Godfather (1972), The Godfather Part II (1974), Goodfellas (1990), Once Upon a Time in America (1984), Scarface (1983), The Departed (2006), Casino (1995), The Irishman (2019), The Untouchables (1987), Donnie Brasco (1997) | Mafia: Definitive Edition (2020), Sleeping Dogs (2012) |
+| antiguedad | Gladiator (2000), Ben-Hur (1959), Troy (2004), 300 (2006), Spartacus (1960), Agora (2009), Alexander (2004), Gladiator II (2024), Cleopatra (1963), The Fall of the Roman Empire (1964) | Assassin's Creed Odyssey (2018) |
+
+Los ids están en `titulos.json`. `generar_sinopsis.py` solo pide las sinopsis que faltan, así que las 11 de la primera corrida no cambian.
+
 El grupo **no** se le manda a Gemini: solo id, título, año y tipo.
 
 ## Archivos
@@ -57,7 +67,7 @@ Etapa 1, generar las sinopsis (usa la clave de Gemini):
 copy .env.example .env            # Linux/macOS: cp .env.example .env
 # completar GEMINI_API_KEY y GEMINI_MODEL en .env
 python generar_sinopsis.py --modelos   # lista los modelos disponibles para la clave
-python generar_sinopsis.py        # agregar --forzar para regenerarlas
+python generar_sinopsis.py        # pide solo las que faltan; --forzar las regenera todas
 ```
 
 Etapa 2, el análisis:
@@ -76,7 +86,7 @@ Todo se calcula dos veces, una por variante de prefijo, con `normalize_embedding
 - **Variante B:** `query: ` delante de todo.
 
 1. Matriz de similitud coseno entre todos los títulos.
-2. Acierto top-2: para los 9 títulos con grupo temático, cuántos de sus 2 vecinos más cercanos son de su grupo (total sobre 18).
+2. Acierto top-2: para cada título con grupo temático, cuántos de sus 2 vecinos más cercanos son de su grupo (total sobre el doble de esos títulos: 18 en la primera corrida, 88 en la segunda).
 3. Separación: similitud media entre pares del mismo grupo temático contra la media del resto de los pares (el par Toy Story – Stardew Valley cuenta como "grupos distintos").
 4. Juegos: si el vecino más cercano de cada juego es de su grupo o es otro juego de otro grupo.
 5. Outliers: similitud máxima de Toy Story y de Stardew Valley con cualquier otro título.
