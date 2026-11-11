@@ -152,10 +152,10 @@ Prefijo de sinopsis: `query: ` · prefijo de búsquedas libres: `query: `
 | --- | --- |
 | inicio del script | 30 |
 | antes de cargar el modelo (con librerías importadas) | 388 |
-| después de cargar el modelo | 1174 |
-| después de generar los embeddings | 1222 |
+| después de cargar el modelo | 1173 |
+| después de generar los embeddings | 1220 |
 
-Carga del modelo: +786 MB. Total desde el inicio: +1192 MB.
+Carga del modelo: +785 MB. Total desde el inicio: +1190 MB.
 
 ## Comparación de variantes
 

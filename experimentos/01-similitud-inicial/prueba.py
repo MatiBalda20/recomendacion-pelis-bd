@@ -14,6 +14,7 @@ CARPETA = Path(__file__).parent
 ARCHIVO_TITULOS = CARPETA / "titulos.json"
 ARCHIVO_SINOPSIS = CARPETA / "sinopsis.json"
 ARCHIVO_RESULTADOS = CARPETA / "resultados.md"
+ARCHIVO_SINOPSIS_MD = CARPETA / "sinopsis.md"
 
 MODELO = "intfloat/multilingual-e5-small"
 SIN_GRUPO = "sin_relacion"
@@ -72,6 +73,15 @@ for t in items:
 ids = [t["id"] for t in items]
 grupos = [t["grupo"] for t in items]
 n = len(items)
+
+# Copia legible de lo que devolvió Gemini, para revisar las sinopsis a mano.
+lineas_sinopsis = ["# Sinopsis generadas por Gemini", ""]
+for t in titulos:
+    texto = sinopsis_por_id.get(t["id"]) or "(ausente)"
+    lineas_sinopsis += [f"## {t['titulo']} ({t['anio']}, {t['tipo']})", "",
+                        f"`{t['id']}` · grupo: {t['grupo']} · {len(texto.split())} palabras", "",
+                        texto, ""]
+ARCHIVO_SINOPSIS_MD.write_text("\n".join(lineas_sinopsis), encoding="utf-8")
 
 # --- Modelo ------------------------------------------------------------------
 
