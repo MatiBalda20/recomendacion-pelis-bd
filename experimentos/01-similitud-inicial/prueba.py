@@ -24,9 +24,12 @@ CONSULTAS = [
     "a father protects his son in a dying world",
     "crew members hunted by a creature on a spaceship",
 ]
+# C usa los prefijos de A, pero le resta a cada vector el promedio de las
+# sinopsis del catálogo (centrado) y lo vuelve a normalizar.
 VARIANTES = {
-    "A": {"pasaje": "passage: ", "consulta": "query: "},
-    "B": {"pasaje": "query: ", "consulta": "query: "},
+    "A": {"pasaje": "passage: ", "consulta": "query: ", "centrar": False},
+    "B": {"pasaje": "query: ", "consulta": "query: ", "centrar": False},
+    "C": {"pasaje": "passage: ", "consulta": "query: ", "centrar": True},
 }
 
 lineas_salida = []
@@ -96,6 +99,10 @@ def vectorizar(textos):
     return modelo.encode(textos, normalize_embeddings=True, convert_to_numpy=True)
 
 
+def normalizar(vectores):
+    return vectores / np.linalg.norm(vectores, axis=-1, keepdims=True)
+
+
 # --- Análisis por variante ---------------------------------------------------
 
 escribir("# Resultados: similitud inicial")
@@ -111,10 +118,16 @@ for nombre, prefijos in VARIANTES.items():
     escribir(f"## Variante {nombre}")
     escribir()
     escribir(f"Prefijo de sinopsis: `{prefijos['pasaje']}` · "
-             f"prefijo de búsquedas libres: `{prefijos['consulta']}`")
+             f"prefijo de búsquedas libres: `{prefijos['consulta']}` · "
+             f"centrado: {'sí' if prefijos['centrar'] else 'no'}")
     escribir()
 
     vectores = vectorizar([prefijos["pasaje"] + t["sinopsis"] for t in items])
+    # Centrado: el promedio del catálogo es lo que todas las sinopsis tienen en
+    # común. Restarlo deja solo lo propio de cada una. Las búsquedas libres se
+    # centran con el mismo promedio, para que queden en el mismo espacio.
+    media = vectores.mean(axis=0) if prefijos["centrar"] else 0
+    vectores = normalizar(vectores - media)
     sim = vectores @ vectores.T
     # Vecinos de cada título ordenados de mayor a menor similitud, sin él mismo.
     vecinos = [[j for j in np.argsort(-sim[i]) if j != i] for i in range(n)]
@@ -198,7 +211,8 @@ for nombre, prefijos in VARIANTES.items():
     # 7. Búsquedas libres
     escribir("### 7. Búsquedas libres (top-3)")
     escribir()
-    vectores_consultas = vectorizar([prefijos["consulta"] + c for c in CONSULTAS])
+    vectores_consultas = normalizar(
+        vectorizar([prefijos["consulta"] + c for c in CONSULTAS]) - media)
     filas = []
     for consulta, vector in zip(CONSULTAS, vectores_consultas, strict=True):
         sim_consulta = vectores @ vector
