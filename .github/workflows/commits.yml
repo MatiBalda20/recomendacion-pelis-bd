@@ -1,0 +1,32 @@
+name: Commits
+
+on:
+  pull_request:
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validar mensajes de commit del PR
+        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+  autoria:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rechazar atribución a IA en la descripción del PR
+        env:
+          CUERPO: ${{ github.event.pull_request.body }}
+          TITULO: ${{ github.event.pull_request.title }}
+        run: |
+          if printf '%s\n%s' "$TITULO" "$CUERPO" | grep -Eiq 'generated with|co-authored-by:.*(claude|anthropic|copilot|chatgpt|openai|gemini)'; then
+            echo "::error::El PR incluye atribución a un asistente de IA. Ver README, sección Autoría."
+            exit 1
+          fi
