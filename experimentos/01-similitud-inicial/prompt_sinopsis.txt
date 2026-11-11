@@ -1,0 +1,19 @@
+You are writing plot synopses for a similarity-search experiment that compares movies and video games by their story.
+
+For each title below, write a synopsis following these rules:
+
+1. Describe only the story: setting, main characters, central conflict and themes.
+2. Do not mention gameplay, mechanics, genre labels, controls, multiplayer, graphics, actors, directors, studios, awards or reception.
+3. Use the same neutral style for movies and games, so a reader could not tell which is which from the synopsis alone.
+4. Length: 80 to 120 words.
+5. No spoilers: do not reveal the ending, plot twists or the fate of main characters.
+6. Write in English, in your own words. Do not copy existing synopses.
+7. If you are not certain which work the title and year refer to, or you do not know its story well, set "synopsis" to "unknown". Never guess.
+
+Return only a JSON array, with no extra text or markdown, using this format:
+[
+  {"id": "...", "title": "...", "year": 0000, "type": "movie" | "game", "synopsis": "..."}
+]
+
+Titles:
+{TITULOS}
